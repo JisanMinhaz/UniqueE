@@ -1,0 +1,560 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	line-height: 24px; 
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+/*******************   Header-section Start (Nav part) ***************/
+/********************************************************************/
+
+.header-section{
+	width: 100%;
+	background: url("../images/bnr.png") center top no-repeat;
+	background-size: cover;
+
+}
+.menu-section{
+	width: 100%;
+}
+.menu-section .bg-light{
+	background:transparent !important; 
+}
+.menu-section .navbar-light .navbar-nav .active>.nav-link{
+    color: #511de5;
+    font-weight: 600;
+    background:url("../images/line.png") center bottom no-repeat;
+} 
+.menu-section .navbar-light .navbar-nav .nav-link {
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0px 10px;
+}
+.menu-section .right-side .nav-link{
+	color: #1a1a1a;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0px 10px;
+}
+
+.menu-section .right-side .btn-info{
+	color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 45px;
+    text-transform: capitalize;
+    border-radius: 35px;
+    background: linear-gradient(to right, #511de5 40%, #1085fa);
+    border: 1px solid /*#511de5*/; 
+    transition: 2s;
+}
+
+.menu-section .navbar-light .navbar-nav .nav-link:hover{
+	color: #511de5;
+    background:url("../images/line.png") center bottom no-repeat;
+    background-size: contain;
+}
+
+.menu-section .right-side .nav-link:hover{
+	color: #511de5;
+    background:url("../images/line.png") center bottom no-repeat;
+    background-size: contain;
+}
+
+.menu-section .right-side .btn-info:hover{
+	color: #511de5;
+	background: transparent;
+	border: 1px solid #511de5; 
+}
+
+/******************* Banner-section start ***************/
+/********************************************************/
+
+.banner-section{
+	width: 100%;
+    padding: 90px 0px 215px;
+}
+.banner-section .banner-inner{
+	width: 100%;
+    text-align: center;
+    padding: 240px 0px 20px
+}
+.banner-section .banner-inner h1{
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 800;
+}
+.banner-section .banner-inner h1 span{
+	color: #511de5;
+}
+.banner-section .banner-inner .btn-info{
+	color: #252f31;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 35px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 35px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    transition: 2s;
+    margin: 25px 0px;
+    border: 1px;
+}
+.banner-section .banner-inner .btn-info:hover{
+	color: #ffffff;
+	background:#511de5 ;
+	border: 1px;  
+}
+
+/******************* Highlight-section start *************/
+/********************************************************/
+
+.highlight-section{
+    width: 100%;
+    position: relative;
+    background: url("../images/highlight.png") center center no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+}
+.highlight-section .highlight-inner .abs{
+    position: absolute;
+    top: -84px;
+    left: 0px;
+}
+.highlight-section .highlight-inner h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+/******************* Feature Section Start *************/
+/*******************************************************/
+
+.feature-section{
+    width: 100%;
+    padding:110px 0px 0px; 
+}
+
+.feature-section .feature-inner{
+    width: 100%;
+    padding: 80px 120px 180px;
+    background:url("../images/basekit.png") center bottom no-repeat;
+    background-size: cover;
+}
+
+.feature-section .feature-inner h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.feature-section .feature-inner p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.feature-section .feature-inner h4 strong{
+    font-size: 100px;
+    font-weight: 900;
+    color: #511de5;
+}
+
+.feature-section .feature-inner h4 span {
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.feature-section .client{
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.feature-section .client img{
+    width: 80%;
+}
+
+/******************* Quote Section Start *************/
+/*****************************************************/
+
+.quote-section{
+    width: 100%;
+    padding: 150px 0px;
+    background:url("../images/R.png") center top no-repeat; 
+    background-size: cover;
+}
+
+.quote-section .quote-inner{
+    width: 100%;
+    padding: 200px 100px;
+    background: url("../images/Q.png") center center no-repeat;
+    background-size: contain;
+}
+
+.quote-section .quote-inner p{
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.quote-section .quote-inner h6{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.quote-section .intro-inner{
+    width: 100%;
+    padding: 200px 100px;
+}
+
+.quote-section .intro-inner h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.quote-section .intro-inner .btn-info{
+    color: #252f31;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 35px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 35px;
+    background: #ffffff;
+    border: 1px solid #f2f2f2;
+    transition: 2s;
+    margin: 15px 0px;
+}
+
+.quote-section .intro-inner .btn-info:hover{
+    color: #ffffff;
+    background:#511de5 ;
+    border: 1px solid #511de5;  
+}
+
+/******************* Effciency Section Start **********/
+/*****************************************************/
+
+.effciency-section{
+    width: 100%;
+    padding: 0px 0px 70px;
+}
+
+.effciency-section .inner-effciency{
+    width: 100%;
+    padding: 30px 0px;
+    margin-top: 20px;
+}
+
+.effciency-section .inner-effciency h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: #1a1a1a;
+    margin-bottom: 25px;
+}
+
+.effciency-section .inner-effciency p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+}
+
+.effciency-section .inner-effciency h6{
+    font-size: 15px;
+    font-weight: 700;
+    color: #1a1a1a;
+    padding: 6px 0px;
+}
+
+.effciency-section .inner-effciency .btn-info {
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 10px 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 35px;
+    background: linear-gradient(to right, #511de5 40%, #1085fa);
+    border: 1px solid ;
+    transition: 2s;
+    margin-top: 30px;
+}
+
+.effciency-section .inner-effciency .btn-info:hover{
+    color: #511de5;
+    background: transparent;
+    border: 1px solid #511de5; 
+}
+
+.effciency-section .inner-effciency img{
+    margin-right: 25px;
+}
+
+/******************* Feedback Section Start **********/
+/*****************************************************/
+
+.feedback-section{
+    width: 100%;
+    padding: 60px 0px 100px;
+    background: #fcfcfc;
+}
+.feedback-section .feedback-inner{
+    width: 100%;
+    padding: 30px 0px 45px;
+    text-align: center;
+}
+
+.feedback-section .feedback-inner h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 900;
+    color: #1a1a1a;
+    margin-bottom: 25px
+}
+
+.feedback-section .feedback-inner p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+}
+
+.feedback-section .feed-img-inner{
+    width: 100%;
+    text-align: center;
+    padding: 30px 40px;
+}
+
+.feedback-section .feed-img-inner img{
+    mix-blend-mode: darken;    /*css3 code*/
+    margin-bottom: 10px;
+}
+
+.feedback-section .feed-img-inner h4{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 900;
+    color: #1a1a1a;
+    margin-bottom: 10px
+}
+.feedback-section .feed-img-inner p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+.feedback-section .border-line{
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+
+/************* Inspirational Section Start **********/
+/****************************************************/
+
+.inspirational-section{
+    width: 100%;
+    padding: 40px 0px 60px;
+}
+
+.inspirational-section .title{
+    width: 100%;
+    padding: 45px 0px 50px;
+    text-align: center;
+}
+.inspirational-section .title h1{
+    font-size: 55px;
+    line-height: 64px;
+    font-weight: 900;
+    color: #1a1a1a;
+    margin-bottom: 25px
+}
+.inspirational-section .inspirational-inner {
+    width: 100%;
+    padding: 0px 0px 0px;
+    background: url(../images/Forma.png) center top no-repeat;
+    background-size: cover;
+    box-shadow: 1px 4px 10px #ccc;
+    opacity: .5;
+}
+
+.inspirational-section .inspirational-inner .text-inner{
+    width: 100%;
+    padding: 110px 0px 70px;
+    text-align: center;
+    border-bottom: 1px solid #f2f2f2;
+}
+.inspirational-section .inspirational-inner .text-inner h4{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 50px 0px 20px
+}
+.inspirational-section .inspirational-inner .client-inner{
+    width: 100%;
+    padding: 30px 0px 15px;
+    text-align: center;
+}
+.inspirational-section .inspirational-inner .client-inner h4{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin:20px 0px 5px;
+    text-transform: uppercase;
+}
+.inspirational-section .inspirational-inner .client-inner p{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #1a1a1a;
+}
+.inspirational-inner:hover{
+    opacity: 1;
+}
+.inspirational-inner:hover .text-inner h4{
+    color: #511de5;
+}
+
+/************* Footer Section Start **********/
+/*********************************************/
+
+.footer-section{
+    width: 100%;
+    padding: 300px 0px 80px;
+    background: url("../images/last.png") center bottom no-repeat;
+    background-size: cover;
+}
+.footer-section .frequently{
+    width: 100%;
+    padding: 90px 90px 90px;
+    background: #fff;
+    box-shadow: 1px 4px 10px #ccc;
+    margin-top: -200px;
+}
+.footer-section .frequently .title{
+    width: 100%;
+    padding: 0px 0px 100px;
+    text-align: center;
+}
+.footer-section .frequently .title h1{
+    font-size: 55px;
+    line-height: 64px;
+    font-weight: 900;
+    color: #1a1a1a;
+    margin-bottom: 25px
+}
+.frequently-inner{
+    width: 100%;
+    padding: 0px 40px;
+}
+
+.footer-section .frequently-inner .card-header {
+    padding: .75rem 0rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 0px;
+}
+.footer-section .frequently-inner .card {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,.125); 
+    border-radius: 0px;
+}
+.footer-section .frequently-inner .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 12px;
+}
+.footer-section .frequently-inner .btn-link:hover {
+    color:#511de5;
+    text-decoration: none;
+}
+.footer-section .frequently-inner .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.footer-section .frequently-inner .btn-link:focus {
+     text-decoration: none; 
+     color:#511de5;
+}
+.footer-section .frequently-inner .btn-link {
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+.footer-section .main-footer{
+    width: 100%;
+    padding: 120px 0px 0px;
+}
+.footer-section .main-footer .left-part{
+    width: 100%;
+    text-align: left;
+}
+.footer-section .main-footer .left-part ul{
+    display: block;
+}
+.footer-section .main-footer .left-part ul li{
+    display: inline-block;
+    list-style: none;
+}
+.footer-section .main-footer .left-part ul li a{
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin:0px 7px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section .main-footer .right-part{
+    width: 100%;
+    text-align: right;
+}
+.footer-section .main-footer .right-part p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
